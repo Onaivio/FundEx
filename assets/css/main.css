@@ -41,7 +41,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: var(--font-default);
+  font-family: var(--font-secondary);
   color: var(--color-default);
 }
 
@@ -1768,22 +1768,25 @@ section {
   background-image: url("../img/hero-bg.png");
   background-size: cover;
   background-position: center;
+  text-align: center;
   position: relative;
   padding: 120px 0 60px 0;
   color: rgba(255, 255, 255, 0.8);
 }
 
 .hero h2 {
-  margin-bottom: 20px;
+  margin-top: 150px;
+  margin-bottom: 40px;
   padding: 0;
-  font-size: 48px;
+  font-size: 58px;
   font-weight: 700;
+  text-transform: uppercase;
   color: #fff;
 }
 
 @media (max-width: 575px) {
   .hero h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
