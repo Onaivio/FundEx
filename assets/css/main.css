@@ -41,8 +41,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: var(--font-default);
-  color: var(--color-default);
+  font-family: var(--font-secondary);
+  color: var(--color-default); 
 }
 
 a {
@@ -61,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 /*--------------------------------------------------------------
