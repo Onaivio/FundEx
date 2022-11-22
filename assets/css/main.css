@@ -1786,7 +1786,6 @@ section {
  .get-started:focus {
   background: var(--color-primary);
   padding: 18px 40px;
-  margin-left: 30px;
   border-radius: 4px;
   color: #fff;
   z-index: 10;
@@ -1800,7 +1799,7 @@ section {
 
 @media (max-width: 575px) {
   .hero h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
@@ -1852,6 +1851,7 @@ section {
   display: block;
   font-weight: 700;
   margin-bottom: 15px;
+  text-align: center;
   padding-bottom: 15px;
   position: relative;
 }
@@ -1874,6 +1874,7 @@ section {
   margin: 0;
   font-family: var(--font-primary);
   font-size: 15px;
+  text-align: center;
   font-weight: 600;
 }
 
