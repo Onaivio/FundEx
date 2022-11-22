@@ -1,9 +1,17 @@
-/**
- * Template Name: FundEX - v1.1.0
- * Template URL: https://.com/FundEX-bootstrap-FundEXtics-website-template/
- * Author: .com
- * License: https://.com/license/
- */
+"use strict";
+// modal variables
+const modal = document.querySelector('[data-modal]');
+const modalCloseBtn = document.querySelector('[data-modal-close]');
+const modalCloseOverlay = document.querySelector('[data-modal-overlay]');
+
+// modal function
+const modalCloseFunc = function () { modal.classList.add('closed') }
+
+// modal eventListener
+modalCloseOverlay.addEventListener('click', modalCloseFunc);
+modalCloseBtn.addEventListener('click', modalCloseFunc);
+
+
 document.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
