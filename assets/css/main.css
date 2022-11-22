@@ -383,8 +383,8 @@ section {
     color: #fff;
   }
 
-  .navbar .get-a-quote,
-  .navbar .get-a-quote:focus {
+  .navbar .get-started,
+  .navbar .get-started:focus {
     background: var(--color-primary);
     padding: 8px 20px;
     margin-left: 30px;
@@ -392,8 +392,8 @@ section {
     color: #fff;
   }
 
-  .navbar .get-a-quote:hover,
-  .navbar .get-a-quote:focus:hover {
+  .navbar .get-started:hover,
+  .navbar .get-started:focus:hover {
     color: #fff;
     background: #ff39ac;
   }
@@ -527,8 +527,8 @@ section {
     color: #fff;
   }
 
-  .navbar .get-a-quote,
-  .navbar .get-a-quote:focus {
+  .navbar .get-started,
+  .navbar .get-started:focus {
     background: var(--color-primary);
     padding: 8px 20px;
     border-radius: 4px;
@@ -536,8 +536,8 @@ section {
     color: #fff;
   }
 
-  .navbar .get-a-quote:hover,
-  .navbar .get-a-quote:focus:hover {
+  .navbar .get-started:hover,
+  .navbar .get-started:focus:hover {
     color: #fff;
     background: rgba(13, 66, 255, 0.8);
   }
@@ -1434,32 +1434,32 @@ section {
 /*--------------------------------------------------------------
 # Get a Quote Section
 --------------------------------------------------------------*/
-.get-a-quote .quote-bg {
+.get-started .quote-bg {
   min-height: 500px;
   background-size: cover;
   background-position: center;
 }
 
-.get-a-quote .php-email-form {
+.get-started .php-email-form {
   background: #f3f6fc;
   padding: 40px;
   height: 100%;
 }
 
 @media (max-width: 575px) {
-  .get-a-quote .php-email-form {
+  .get-started .php-email-form {
     padding: 20px;
   }
 }
 
-.get-a-quote .php-email-form h3 {
+.get-started .php-email-form h3 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.get-a-quote .php-email-form h4 {
+.get-started .php-email-form h4 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1467,12 +1467,12 @@ section {
   margin: 20px 0 0 0;
 }
 
-.get-a-quote .php-email-form p {
+.get-started .php-email-form p {
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-.get-a-quote .php-email-form .error-message {
+.get-started .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #df1529;
@@ -1482,7 +1482,7 @@ section {
   font-weight: 600;
 }
 
-.get-a-quote .php-email-form .sent-message {
+.get-started .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #059652;
@@ -1492,7 +1492,7 @@ section {
   font-weight: 600;
 }
 
-.get-a-quote .php-email-form .loading {
+.get-started .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1500,7 +1500,7 @@ section {
   margin-bottom: 24px;
 }
 
-.get-a-quote .php-email-form .loading:before {
+.get-started .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1513,28 +1513,28 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.get-a-quote .php-email-form input,
-.get-a-quote .php-email-form textarea {
+.get-started .php-email-form input,
+.get-started .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 0;
 }
 
-.get-a-quote .php-email-form input:focus,
-.get-a-quote .php-email-form textarea:focus {
+.get-started .php-email-form input:focus,
+.get-started .php-email-form textarea:focus {
   border-color: var(--color-primary);
 }
 
-.get-a-quote .php-email-form input {
+.get-started .php-email-form input {
   padding: 12px 15px;
 }
 
-.get-a-quote .php-email-form textarea {
+.get-started .php-email-form textarea {
   padding: 12px 15px;
 }
 
-.get-a-quote .php-email-form button[type="submit"] {
+.get-started .php-email-form button[type="submit"] {
   background: var(--color-primary);
   border: 0;
   padding: 10px 30px;
@@ -1543,7 +1543,7 @@ section {
   border-radius: 4px;
 }
 
-.get-a-quote .php-email-form button[type="submit"]:hover {
+.get-started .php-email-form button[type="submit"]:hover {
   background: rgba(13, 66, 255, 0.8);
 }
 
@@ -1774,11 +1774,28 @@ section {
 }
 
 .hero h2 {
+  margin-top: 5rem;
   margin-bottom: 20px;
   padding: 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
   color: #fff;
+}
+
+.get-started,
+ .get-started:focus {
+  background: var(--color-primary);
+  padding: 18px 40px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  z-index: 10;
+}
+
+.get-started:hover,
+.get-started:focus:hover {
+  color: #fff;
+  background: #ff39ac;
 }
 
 @media (max-width: 575px) {
@@ -1826,6 +1843,7 @@ section {
 
 .hero .stats-item {
   padding: 30px;
+  margin-top: 1rem;
   width: 100%;
 }
 
