@@ -8,6 +8,24 @@
   --font-secondary: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+	width: 3px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 20px 4px 10px #f3eee7;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #fff;
+}
+
 /* Colors */
 :root {
   --color-default: #0f0837;

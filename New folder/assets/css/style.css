@@ -6,6 +6,24 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+	width: 3px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 20px 4px 10px #f3eee7;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #fff;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: #f6f9ff;
