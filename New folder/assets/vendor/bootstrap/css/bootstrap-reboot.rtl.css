@@ -6,7 +6,7 @@
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #8c2a7a;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -230,7 +230,7 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #8c2a7a;
   text-decoration: underline;
 }
 a:hover {
